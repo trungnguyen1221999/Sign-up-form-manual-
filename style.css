@@ -1,0 +1,107 @@
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Courier New", monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  width: 400px;
+  height: 580px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 10px;
+  background-color: #fff;
+}
+
+.sign-up__heading {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 30px;
+  color: blue;
+}
+
+.sign-up__desc {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 30px;
+}
+.sign-up__desc strong {
+  color: blue;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 1.8rem;
+}
+.form__label {
+  color: blue;
+  font-weight: bold;
+  cursor: pointer;
+}
+.form__label:hover {
+  color: darkblue;
+}
+
+.form__input {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form__input:focus {
+  outline: none;
+  border-color: blue;
+}
+
+.form__btn {
+  padding-bottom: 20px;
+  display: flex;
+  padding: 10px;
+  background-color: blue;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  margin: auto 0;
+}
+.btn {
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.form__btn:hover {
+  background-color: darkblue;
+  cursor: pointer;
+}
+
+.invalid {
+  border-color: red;
+}
+
+.form__error--message {
+  color: red;
+  font-size: 1.6rem;
+}
